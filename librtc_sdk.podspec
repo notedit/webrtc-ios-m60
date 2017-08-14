@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "WebRTC"
-  s.version      = "m60"
+  s.version      = '60.1'
   s.authors      =  "notedit"
   s.homepage    = "notedit"
   s.summary      = "WebRTC Video Streaming Peer Connection API's. An iOS WebRTC demo application hosted on App Engine. Builds by Pristine.io"
