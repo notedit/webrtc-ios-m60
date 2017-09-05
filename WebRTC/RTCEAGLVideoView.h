@@ -10,7 +10,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
+#import <GLKit/GLKit.h>
 #import <WebRTC/RTCMacros.h>
 #import <WebRTC/RTCVideoRenderer.h>
 
@@ -31,6 +31,7 @@ RTC_EXPORT
 RTC_EXPORT
 @interface RTCEAGLVideoView : UIView <RTCVideoRenderer>
 
+@property(nonatomic, readonly) GLKView *glkView;
 @property(nonatomic, weak) id<RTCEAGLVideoViewDelegate> delegate;
 
 @end
